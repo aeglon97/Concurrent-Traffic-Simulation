@@ -6,17 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficLight.cpp
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Intersection.cpp
 iostream
+-
+thread
+-
+chrono
+-
+future
 -
 random
 -
-TrafficLight.h
-/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficLight.h
+Street.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Street.h
+Intersection.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Intersection.h
+Vehicle.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Vehicle.h
+
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Intersection.h
+vector
+-
 future
 -
-queue
+mutex
 -
+memory
+-
+TrafficObject.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficObject.h
+TrafficLight.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficLight.h
+
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Street.h
+TrafficObject.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficObject.h
 
 /home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficLight.h
 mutex
@@ -35,4 +59,8 @@ thread
 -
 mutex
 -
+
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/Vehicle.h
+TrafficObject.h
+/home/aeglon97/SWE/Concurrent-Traffic-Simulation/src/TrafficObject.h
 
