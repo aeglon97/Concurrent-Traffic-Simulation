@@ -116,7 +116,8 @@ void TrafficLight::cycleThroughPhases()
 
             //send update with move semantics, wait to complete
             TrafficLightPhase message= _currentPhase;
-            _messageQueue.send(std::move(message));
+            auto future = std::async(std::launch::async, &MessageQueue<TrafficLightPhase>::send, _messageQueue, std::move(message));
+            future.wait();
 
             //Reset next cycle duration
             cycleDuration = distr(engine);
