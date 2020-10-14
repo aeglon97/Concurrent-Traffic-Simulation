@@ -15,6 +15,7 @@ Throughout the Concurrency course, you have been developing a traffic simulation
   * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * OpenCV >= 4.1
   * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
+  * Installation instructions can be found [here](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
 * gcc/g++ >= 5.4
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
